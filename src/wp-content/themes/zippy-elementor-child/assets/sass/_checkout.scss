@@ -1,0 +1,25 @@
+#checkout-form-site{
+    .elementor-widget-container{
+        .woocommerce-form-coupon-toggle{
+            .woocommerce-info{
+                color: var(--e-global-color-2e88ecc);
+                a{
+                    color: var(--e-global-color-1a8bc11);
+                }
+            }
+        }
+    }
+    form{
+        #payment{
+            button{
+                background-color: var(--e-global-color-ec9a96b);
+                color:  var(--e-global-color-acf8df3);
+                &:hover{
+                 background-color: var(--e-global-color-2e88ecc);
+                color:  var(--e-global-color-acf8df3);
+
+                }
+            }
+        }
+    }
+}
