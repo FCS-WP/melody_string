@@ -1,0 +1,14 @@
+#single-product-image-site {
+  .elementor-widget-container {
+    .woocommerce-product-gallery__wrapper {
+      a {
+        img {
+          height: 650px;
+          max-height: 100%;
+          object-fit: cover;
+          object-position: center;
+        }
+      }
+    }
+  }
+}

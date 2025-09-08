@@ -1,0 +1,30 @@
+#our-lesson-list {
+  article {
+    .elementor-post__excerpt {
+      height: 72px;
+      max-height: 100%;
+    }
+    .elementor-post__read-more {
+      display: inline-block;
+      transition: transform 0.3s ease;
+      &:hover {
+        color: var(--e-global-color-2e88ecc);
+        transform: scale(0.8);
+      }
+    }
+  }
+}
+@media screen and (max-width: 767px) {
+  #our-lesson-list {
+    article {
+      .elementor-post__thumbnail {
+        img {
+          height: 300px;
+          max-height: 100%;
+          object-fit: cover;
+          object-position: center;
+        }
+      }
+    }
+  }
+}

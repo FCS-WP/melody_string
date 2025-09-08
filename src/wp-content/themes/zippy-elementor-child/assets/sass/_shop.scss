@@ -1,0 +1,34 @@
+#shop-archive-product {
+  .elementor-widget-container {
+    .woocommerce-result-count {
+      color: var(--e-global-color-text);
+    }
+    .woocommerce-ordering {
+      .orderby {
+        border: none;
+        color: var(--e-global-color-text);
+      }
+    }
+    ul {
+      li {
+        a {
+          h2 {
+            height: 90px;
+            max-height: 100%;
+          }
+          .price {
+            height: 30px;
+            max-height: 100%;
+          }
+        }
+      }
+    }
+  }
+}
+#shop-category-list {
+  .elementor-widget-container {
+    .jkit-product-category {
+      margin: 20px 0px;
+    }
+  }
+}

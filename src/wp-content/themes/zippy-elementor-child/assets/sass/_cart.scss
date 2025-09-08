@@ -1,0 +1,39 @@
+#cart-form-site {
+  form {
+    table {
+      tbody {
+        .product-name{
+            a{
+                color: var(--e-global-color-8a74749);
+            }   
+        }
+        #coupon_code {
+          width: 120px;
+          max-width: 100%;
+        }
+        .qty {
+          width: 100px;
+          max-width: 100%;
+        }
+        .coupon {
+          button {
+            background-color: var(--e-global-color-ec9a96b);
+            color: var(--e-global-color-acf8df3);
+            &:hover {
+              background-color: var(--e-global-color-2e88ecc);
+            }
+          }
+        }
+      }
+    }
+  }
+  .wc-proceed-to-checkout {
+    a {
+      background-color: var(--e-global-color-ec9a96b);
+      color: var(--e-global-color-acf8df3);
+      &:hover {
+        background-color: var(--e-global-color-2e88ecc);
+      }
+    }
+  }
+}
