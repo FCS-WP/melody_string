@@ -1,0 +1,9 @@
+#single-post-recent-post-list {
+  box-shadow: rgba(0, 0, 0, 0.18) 0px 2px 4px;
+  border-radius: 20px;
+  article {
+    .elementor-post__thumbnail__link {
+      display: none;
+    }
+  }
+}
