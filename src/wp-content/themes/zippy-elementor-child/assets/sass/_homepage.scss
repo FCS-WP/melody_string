@@ -21,6 +21,57 @@
     }
   }
 }
+#homepage-lesson-list {
+  ul {
+    li {
+      a {
+        h2 {
+          mark {
+            display: none;
+          }
+        }
+      }
+    }
+  }
+}
+#hompage-latest-article-list {
+  article {
+    position: relative;
+    .elementor-post__text {
+      position: absolute;
+      bottom: 30px;
+      left: 0;
+      right: 0;
+      padding: 0 20px;
+    }
+    .elementor-post__thumbnail {
+      padding: 0;
+      img {
+        position: static;
+        transform: none;
+        height: 250px;
+        object-fit: cover;
+      }
+      &::before {
+        content: "";
+        background: linear-gradient(
+          180deg,
+          rgba(23, 17, 17, 0) 0%,
+          var(--e-global-color-1a8bc11) 100%
+        );
+        opacity: 0.5;
+        position: absolute;
+        top: 0;
+        left: 0;
+        right: 0;
+        bottom: 0;
+      }
+    }
+    .elementor-post__thumbnail__link {
+      margin: 0;
+    }
+  }
+}
 @media (min-width: 992px) {
   #homepage-card-list {
     h2 {
