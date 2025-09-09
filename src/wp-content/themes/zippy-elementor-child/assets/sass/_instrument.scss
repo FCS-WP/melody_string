@@ -1,0 +1,15 @@
+.instrument-card-list {
+  .elementor-widget-container {
+    .elementor-posts-container {
+      .elementor-post__card {
+        .elementor-post__text {
+          .elementor-post__read-more {
+            &:hover {
+              color: var(--e-global-color-2e88ecc);
+            }
+          }
+        }
+      }
+    }
+  }
+}
