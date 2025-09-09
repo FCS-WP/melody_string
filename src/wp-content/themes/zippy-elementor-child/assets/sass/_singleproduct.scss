@@ -12,3 +12,17 @@
     }
   }
 }
+#add-to-cart-site {
+  .elementor-widget-container {
+    .elementor-add-to-cart {
+      .e-atc-qty-button-holder {
+        .quantity {
+          input {
+            width: 70px;
+            max-width: 100%;
+          }
+        }
+      }
+    }
+  }
+}
